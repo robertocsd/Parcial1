@@ -59,7 +59,6 @@ p{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-
 }
 .options i:last-child {
     font-size: 1.6rem;
@@ -82,6 +81,8 @@ p{
     color: #D7DEE6;
 
 }
+
+
 
 
 
@@ -367,31 +368,35 @@ footer>p{
         display: flex;
         margin-top: 1em;
     }
-   .about>.container{
-       display: flex;
-       flex-flow: row wrap;
-   }
-    .contact{
-        margin-bottom: 5%;
-         width: 50%;
+ 
+    .about>.container{
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 1em;
+       margin-left: 1em;
+       margin-right: 1em;
+    }
+ 
+      .bio-info{
          
-     }
-     .bio-info{
-         margin-left: 5%;
-         width: 50%;
-     }
-     .about>.container>h2{
-         width: 100%;
-     }
-
-
-     .green-area>.container.post{
-         width: 100%;
-     }
-
-     .green-area>.container.post>h2{
-         width: 100%;
-     }
+          width: 50%;
+      }
+      .about>.container>h2{
+          width: 100%;
+      }
+      .contact{
+          align-self: flex-end;
+          width: 50%;
+      }
+ 
+      .green-area>.container.post{
+          width: 100%;
+      }
+ 
+      .green-area>.container.post>h2{
+          width: 100%;
+      }
+ 
 
     /*TODO: FALTA CSS */
 } 
@@ -405,11 +410,7 @@ footer>p{
         margin-bottom: 5%;
          width: 40%;
      
-     }
- 
-     
-     
-     
+     }   
      .about>.container{
         display: flex;
         flex-flow: row wrap;
@@ -455,8 +456,4 @@ footer>p{
          width: 100%;
 
      }
-     
-    
-     
-     
 }
