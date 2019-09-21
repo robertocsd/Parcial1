@@ -115,7 +115,7 @@ p{
 .fas.fa-arrow-circle-down{
     font-size: 2.3em;
     color: #0AC693;
-    margin-bottom: 1.2em;
+    margin-bottom: 2.1em;
 
 }
 
@@ -228,7 +228,7 @@ p{
 .contact * + * {
     margin-top: 1.5em;
 }
-#menu>li:last-child>a{
+#menu>li>a:hover{
     color: tomato;
 }
 
@@ -339,8 +339,7 @@ footer>p{
     }
     
     .post ul li {
-        min-height: auto;
-        max-height: auto;
+        
       
         margin: 1rem 2rem;
         flex: 1 0 300px;
@@ -390,11 +389,17 @@ footer>p{
       }
  
       .green-area>.container.post{
-          width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        
+
       }
- 
+     
+      
       .green-area>.container.post>h2{
           width: 100%;
+          
+
       }
  
 
