@@ -407,30 +407,42 @@ footer>p{
        /*TODO: FALTA CSS */
      
     .contact{
-        margin-bottom: 5%;
+        align-self: flex-end;
          width: 40%;
      
      }   
      .about>.container{
         display: flex;
+        margin-left: 10%;
         flex-flow: row wrap;
+        margin-right: 10%;
+        
+       
     }
+   
  
       .bio-info{
-          margin-left: 5%;
+          margin-right: 10%;
           width: 50%;
+          align-self: flex-end;
       }
       .about>.container>h2{
           width: 100%;
+
       }
  
+ 
+     
  
       .green-area>.container.post{
-          width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+
       }
- 
+      
       .green-area>.container.post>h2{
           width: 100%;
+
       }
  
 
