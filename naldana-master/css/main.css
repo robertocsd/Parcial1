@@ -60,6 +60,7 @@ p{
     flex-wrap: wrap;
     align-items: flex-start;
 }
+/* Ajusta el tamaño delñ ultimo hijo del elemnto <i> */
 .options i:last-child {
     font-size: 1.6rem;
 }
@@ -100,6 +101,7 @@ p{
 }
 
 
+/* Controla los enlaces de redes sociales*/
 
 .social-links li a{
     display: flex; 
@@ -111,6 +113,8 @@ p{
     
 
 }
+
+/* Controla el boton para ir al cuerpo de la web*/
 
 .fas.fa-arrow-circle-down{
     font-size: 2.3em;
@@ -228,6 +232,7 @@ p{
 .contact * + * {
     margin-top: 1.5em;
 }
+/* Permite que el menu pueda colorearse al pasar el raton encima */
 #menu>li>a:hover{
     color: tomato;
 }
@@ -306,12 +311,15 @@ footer{
     
 }
 
+/* El footer recibe un flex para poder ordenar los elementos que están dentro*/
 footer{
     display: flex;
     flex-flow: column wrap;
    
   
 }
+
+/* Ordena los enlaces sociales del footer*/
 footer>.social-links>li>a{
     font-size: 8.5em;
     margin-top: 2%;
@@ -320,6 +328,7 @@ footer>.social-links>li>a{
     justify-self: center;
 
 }
+/* Centra el texto del footer*/
 footer>p{
     justify-self: center;
     
@@ -344,7 +353,7 @@ footer>p{
         margin: 1rem 2rem;
         flex: 1 0 300px;
     }
-
+    
     .logo {
         width: 150px;
         margin: 1.5em;
@@ -367,7 +376,7 @@ footer>p{
         display: flex;
         margin-top: 1em;
     }
- 
+    /* Controla el contenedor de la seccion acerca de  */
     .about>.container{
         display: flex;
         flex-flow: row wrap;
@@ -380,22 +389,26 @@ footer>p{
          
           width: 50%;
       }
+
+      /* Hace que el texto que dice 'acerca de' se centre */
       .about>.container>h2{
           width: 100%;
       }
+
       .contact{
           align-self: flex-end;
           width: 50%;
       }
- 
+      
+      /* Los ordena en base al ancho */
       .green-area>.container.post{
         display: flex;
         flex-flow: row wrap;
         
 
-      }
+      } 
      
-      
+      /* Ordena el texto que dice 'Publicaciones'  */
       .green-area>.container.post>h2{
           width: 100%;
           
@@ -416,6 +429,9 @@ footer>p{
          width: 40%;
      
      }   
+
+
+     /*ordena el about */
      .about>.container{
         display: flex;
         margin-left: 10%;
@@ -438,7 +454,7 @@ footer>p{
  
  
      
- 
+ /* El agrupa el container del greenarea para ipadPro*/
       .green-area>.container.post{
         display: flex;
         flex-flow: column wrap;
@@ -462,7 +478,7 @@ footer>p{
         max-width: 1440px;
     }
     
-     
+     /* El greenarea de los dispositivos con 1440px hace que se altere cuando se ajusta la panatalla*/
      .green-area>.container.post{
          display: flex;
          flex-flow: row wrap;
